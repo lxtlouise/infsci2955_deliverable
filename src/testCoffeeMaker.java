@@ -5,6 +5,7 @@ import org.junit.Test;
 
 public class testCoffeeMaker {
 
+	//Test runArgs(string) 
 	//This tests that runArgs() always return 0.
 	@Test
 	public void test(){

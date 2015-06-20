@@ -46,7 +46,7 @@ public class TestGame {
 	  assertEquals(0, actual);
   }
   
-  //Test moveSouth
+  //Test moveSouth()
   //When the input of doSomething is "S", the function moveSouth() should be called once. And the return value should be 0.
   @Test
   public void testMoveSouth(){
@@ -60,6 +60,7 @@ public class TestGame {
 	  assertEquals(0, actual);
   }
   
+  //Test doSomething(string) for an invalid command
   //When users enter an invalid command, they should be informed with "What?".
   @Test
   public void testDoSomethingWithInvalidCommand(){

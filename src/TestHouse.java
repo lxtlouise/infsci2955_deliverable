@@ -69,13 +69,17 @@ public class TestHouse {
 	}
 	
 	//Test generateRoom()
-	//When we generate 6 rooms, the first room should have cream.
+	//When we generate 6 rooms, the first room should have cream and north door; the first room should not have coffee, sugar and south door.
 	@Test
 	public void testFirstRoomHasCream() {
 		House h = new House(6);
 		Room[] rooms = h.generateRooms(6);
 		
 		assertTrue(rooms[0].hasCream());
+		assertFalse(rooms[0].hasCoffee());
+		assertFalse(rooms[0].hasSugar());
+		assertFalse(rooms[0].southExit());
+		assertTrue(rooms[0].northExit());
 		
 	}
 	
