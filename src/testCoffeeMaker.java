@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 
-public class testCoffeeMaker {
+public class TestCoffeeMaker {
 
 	//Test runArgs(string) 
 	//This tests that runArgs() always return 0.
