@@ -11,7 +11,7 @@ import org.junit.Test;
 public class TestRoom {
 	
 	//Test getDescription()
-	//When the user is in the 5th room and the room's exit is facing south, 
+	//When the user is in the Smart room and the room's exit is facing south, 
 	//the user should see a smart room which has a dumb board game and the room has a door leads South.
 	@Test
 	public void testGetDescription(){
